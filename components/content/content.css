@@ -1,0 +1,22 @@
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem var(--space-base);
+}
+
+.block-01 {
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Charlevoix";
+  font-size: clamp(1rem, 16vw, 16rem);
+  text-transform: uppercase;
+  display: flex;
+}
+
+.letter {
+  opacity: 0;
+  display: inline-block;
+}

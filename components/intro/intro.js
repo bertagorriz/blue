@@ -1,3 +1,5 @@
+import { animateText } from "../content/content.js";
+
 const svg = document.querySelector("svg");
 const intro = document.querySelector(".intro");
 
@@ -27,6 +29,7 @@ export const animateIntro = () => {
     ease: "power2.inOut",
     onComplete: () => {
       intro.style.display = "none";
+      animateText();
     },
   });
 };
