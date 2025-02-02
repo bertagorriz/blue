@@ -1,6 +1,6 @@
 import { map } from "../functions/functions.js";
 
-gsap.registerPlugin(SplitText, ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 // HERO
 const letters = document.querySelectorAll(".letter");
@@ -21,30 +21,6 @@ export const animateText = () => {
 };
 
 // ABOUT
-const text = document.querySelector("#about-section p");
-let split;
-
-const createSplit = () => {
-  if (split) split.revert();
-
-  split = new SplitText(text, { type: "chars" });
-
-  gsap.from(split.chars, {
-    opacity: 0,
-    y: 50,
-    stagger: 0.05,
-    duration: 1,
-    ease: "power3.out",
-    scrollTrigger: {
-      trigger: "#about-section",
-      start: "top 80%",
-      end: "bottom 60%",
-      scrub: true,
-    },
-  });
-};
-
-createSplit();
 
 // VARIETY
 const texts = ["Dark", "Light", "Navy", "Denim"];
