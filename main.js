@@ -1,0 +1,3 @@
+gsap.config({
+  trialWarn: false,
+});
