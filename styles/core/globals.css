@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: "Charlevoix";
-  src: url("/assets/fonts/CharlevoixPro-Regular.woff2") format("woff2");
+  src: url("./assets/fonts/CharlevoixPro-Regular.woff2") format("woff2");
   text-rendering: optimizeLegibility;
 }
 
