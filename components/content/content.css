@@ -27,6 +27,46 @@ h1 {
   display: inline-block;
 }
 
-.about {
+.variety {
+  font-family: "Charlevoix";
+  text-transform: uppercase;
+  font-size: var(--text-4xl);
+}
+
+.variety-height {
   height: 100vh;
+}
+
+.band-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10px;
+  width: 10px;
+}
+
+.band {
+  width: 250vw;
+  height: auto;
+  padding: var(--space-sm);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  background-color: var(--secondary-color);
+}
+
+.band p {
+  font-size: 10vw;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  color: var(--primary-color);
+  padding: 0 20px;
+}
+
+.band-wrapper.band {
+  background-color: var(--secondary-color);
 }
