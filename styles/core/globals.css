@@ -30,6 +30,12 @@
   --button-width: 105px;
 }
 
+@font-face {
+  font-family: "Charlevoix";
+  src: url("/assets/fonts/CharlevoixPro-Regular.woff2") format("woff2");
+  text-rendering: optimizeLegibility;
+}
+
 body {
   font-size: var(--text-base);
   font-family: "Arial";
