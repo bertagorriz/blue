@@ -70,3 +70,16 @@ h1 {
 .band-wrapper.band {
   background-color: var(--secondary-color);
 }
+
+.block-03 {
+  height: 100vh;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+
+  p {
+    text-transform: uppercase;
+    font-size: var(--text-2xl);
+    white-space: nowrap;
+    z-index: 5;
+  }
+}
