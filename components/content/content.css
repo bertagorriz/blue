@@ -9,6 +9,12 @@
   height: 100vh;
 }
 
+.block-02 p {
+  font-size: var(--text-4xl);
+  max-width: 80rem;
+  text-align: center;
+}
+
 h1 {
   font-family: "Charlevoix";
   font-size: clamp(1rem, 16vw, 16rem);
@@ -19,4 +25,8 @@ h1 {
 .letter {
   opacity: 0;
   display: inline-block;
+}
+
+.about {
+  height: 100vh;
 }
